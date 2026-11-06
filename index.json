@@ -1,0 +1,11 @@
+{
+  "org": "pandas-dev",
+  "repo": "pandas-stubs",
+  "versions": [
+    {
+      "commit": "96c49cbe8918f14da9bd7e0dfde6fc7767f72f58",
+      "tag": "",
+      "parsed_at": "2026-11-06T03:57:46.206439+00:00"
+    }
+  ]
+}
