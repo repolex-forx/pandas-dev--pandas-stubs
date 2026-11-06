@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/pandas-dev/pandas-stubs/commit/96c49cbe8918f14da9bd7e0dfde6fc7767f72f58",
       "git:hexsha": "96c49cbe8918f14da9bd7e0dfde6fc7767f72f58",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/pandas-dev/pandas-stubs/commit/c66d3c78a4d78a82f9e0be64330d5d4e21fd90cb",
