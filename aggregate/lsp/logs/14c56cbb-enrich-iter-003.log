@@ -1,0 +1,17 @@
+[2026-11-23T14:03:14Z] === ENRICH ITERATION 3 START | repo=pandas-dev/pandas-stubs sha=14c56cbb ===
+[2026-11-23T14:03:14Z] [iter=3] PHASE START: enrich repo=pandas-dev/pandas-stubs sha=14c56cbb runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/14c56cbb-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/14c56cbb4211c0562bab2cdb516dee6408b721da.nq.gz
+[2026-11-23T14:03:14Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-23T14:03:52Z] [iter=3] AST store loaded triples=3405715 load_secs=37 mem_mb=931 MB
+[2026-11-23T14:03:52Z] [iter=3] Step 2: Finding LSP targets mem_mb=931 MB
+[2026-11-23T14:03:56Z] [iter=3] LSP targets found call_sites=32894 imports=1812 extends=258 implements=0 secs=4
+[2026-11-23T14:03:58Z] [iter=3] Loaded checkpoint partial graph triples=40575
+[2026-11-23T14:03:58Z] [iter=3] Primed enclosing-def cache from persisted triples entries=212
+[2026-11-23T14:04:00Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=931 MB
+[2026-11-23T14:04:15Z] [iter=3] Position index built positions=223162 nodes_with_types=291775 secs=15 mem_mb=931 MB
+[2026-11-23T14:04:15Z] [iter=3] Step 3: Starting LSP resolution mem_mb=931 MB already_completed_types=[] already_completed_files=4
+[2026-11-23T14:04:15Z] [iter=3] Resolving target type target_type=call_site count=32894
+[2026-11-23T14:04:16Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=tests/series/test_series.py
+[2026-11-23T14:33:38Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.4 files_completed=4 new_files_this_iter=0 mem_mb=931 MB
+[2026-11-23T14:33:38Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/14c56cbb4211c0562bab2cdb516dee6408b721da.nq.gz triples=56394
+[2026-11-23T14:33:38Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-23T14:33:38Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1823 elapsed_min=30.4 files_completed=4
