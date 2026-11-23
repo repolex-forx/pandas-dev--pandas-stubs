@@ -19,6 +19,7 @@
     "tests/series/complex/test_truediv.py",
     "tests/series/float/test_add.py",
     "tests/series/float/test_floordiv.py",
+    "tests/series/float/test_sub.py",
     "tests/series/float/test_truediv.py",
     "tests/series/int/test_add.py",
     "tests/series/int/test_sub.py",
@@ -27,8 +28,12 @@
     "tests/series/test_indexing.py",
     "tests/series/test_series.py",
     "tests/series/test_sub.py",
+    "tests/series/timedelta/test_truediv.py",
     "tests/series/timestamp/test_add.py",
+    "tests/series/timestamp/test_sub.py",
     "tests/test_api_types.py",
+    "tests/test_dtypes.py",
+    "tests/test_errors.py",
     "tests/test_groupby.py",
     "tests/test_io.py",
     "tests/test_pandas.py",
@@ -43,7 +48,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/14c56cbb4211c0562bab2cdb516dee6408b721da.nq.gz",
     "call_sites": 32894,
     "import_statements": 1812,
-    "call_targets_resolved": 19856,
+    "call_targets_resolved": 20624,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -57,5 +62,5 @@
     "extends_class_denormalized": 258,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1820
+  "elapsed_seconds": 1812
 }
