@@ -1,14 +1,19 @@
 {
   "commit_sha": "0cb16c482b2350047d51e5954e9d8bc5ff40f4d0",
   "completed_files": [
+    "tests/arrays/test_extension_array.py",
+    "tests/arrays/test_numpy_extension_array.py",
     "tests/frame/test_frame.py",
     "tests/frame/test_groupby.py",
+    "tests/frame/test_indexing.py",
     "tests/indexes/complex/test_add.py",
     "tests/indexes/complex/test_sub.py",
     "tests/indexes/float/test_truediv.py",
+    "tests/indexes/int/test_sub.py",
     "tests/indexes/str/test_mul.py",
     "tests/indexes/test_floordiv.py",
     "tests/indexes/test_indexes.py",
+    "tests/indexes/test_multi_indexes.py",
     "tests/indexes/test_sub.py",
     "tests/indexes/test_truediv.py",
     "tests/scalars/test_scalars.py",
@@ -26,6 +31,7 @@
     "tests/series/str/test_dtypes.py",
     "tests/series/str/test_mul.py",
     "tests/series/test_add.py",
+    "tests/series/test_agg.py",
     "tests/series/test_floordiv.py",
     "tests/series/test_indexing.py",
     "tests/series/test_series.py",
@@ -41,6 +47,8 @@
     "tests/test_natype.py",
     "tests/test_pandas.py",
     "tests/test_resampler.py",
+    "tests/test_string_accessors.py",
+    "tests/test_styler.py",
     "tests/test_timefuncs.py",
     "tests/test_utility.py",
     "tests/test_windowing.py"
@@ -51,7 +59,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0cb16c482b2350047d51e5954e9d8bc5ff40f4d0.nq.gz",
     "call_sites": 32041,
     "import_statements": 1855,
-    "call_targets_resolved": 19908,
+    "call_targets_resolved": 21267,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -65,5 +73,5 @@
     "extends_class_denormalized": 258,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1833
+  "elapsed_seconds": 1804
 }
