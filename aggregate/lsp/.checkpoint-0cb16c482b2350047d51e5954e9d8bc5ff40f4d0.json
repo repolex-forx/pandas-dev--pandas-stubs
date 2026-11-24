@@ -2,11 +2,14 @@
   "commit_sha": "0cb16c482b2350047d51e5954e9d8bc5ff40f4d0",
   "completed_files": [
     "tests/frame/test_frame.py",
+    "tests/frame/test_groupby.py",
+    "tests/indexes/complex/test_add.py",
     "tests/indexes/complex/test_sub.py",
     "tests/indexes/float/test_truediv.py",
     "tests/indexes/str/test_mul.py",
     "tests/indexes/test_floordiv.py",
     "tests/indexes/test_indexes.py",
+    "tests/indexes/test_sub.py",
     "tests/indexes/test_truediv.py",
     "tests/scalars/test_scalars.py",
     "tests/series/bool/test_truediv.py",
@@ -15,7 +18,9 @@
     "tests/series/float/test_floordiv.py",
     "tests/series/float/test_mul.py",
     "tests/series/float/test_sub.py",
+    "tests/series/int/test_add.py",
     "tests/series/int/test_mul.py",
+    "tests/series/int/test_sub.py",
     "tests/series/str/test_mul.py",
     "tests/series/test_add.py",
     "tests/series/test_floordiv.py",
@@ -29,6 +34,7 @@
     "tests/test_groupby.py",
     "tests/test_interval.py",
     "tests/test_io.py",
+    "tests/test_natype.py",
     "tests/test_pandas.py",
     "tests/test_resampler.py",
     "tests/test_timefuncs.py",
@@ -41,7 +47,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0cb16c482b2350047d51e5954e9d8bc5ff40f4d0.nq.gz",
     "call_sites": 32041,
     "import_statements": 1855,
-    "call_targets_resolved": 17807,
+    "call_targets_resolved": 18804,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -55,5 +61,5 @@
     "extends_class_denormalized": 258,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1816
+  "elapsed_seconds": 1826
 }
