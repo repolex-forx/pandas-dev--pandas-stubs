@@ -1,0 +1,25 @@
+{
+  "commit_sha": "0cb16c482b2350047d51e5954e9d8bc5ff40f4d0",
+  "completed_files": [],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/pandas-dev/pandas-stubs/lsp/0cb16c482b2350047d51e5954e9d8bc5ff40f4d0",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0cb16c482b2350047d51e5954e9d8bc5ff40f4d0.nq.gz",
+    "call_sites": 32041,
+    "import_statements": 1855,
+    "call_targets_resolved": 1005,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 258,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 3931,
+    "import_symbols_denormalized": 3496,
+    "extends_class_denormalized": 258,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1812
+}
