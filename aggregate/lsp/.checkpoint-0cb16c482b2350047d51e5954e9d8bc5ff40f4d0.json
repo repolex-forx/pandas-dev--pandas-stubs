@@ -2,7 +2,9 @@
   "commit_sha": "0cb16c482b2350047d51e5954e9d8bc5ff40f4d0",
   "completed_files": [
     "pandas-stubs/core/indexes/accessors.pyi",
+    "scripts/test/run.py",
     "tests/arrays/test_arrow_extension_array.py",
+    "tests/arrays/test_arrow_string_array.py",
     "tests/arrays/test_base_string_array.py",
     "tests/arrays/test_boolean_array.py",
     "tests/arrays/test_extension_array.py",
@@ -14,6 +16,7 @@
     "tests/frame/test_indexing.py",
     "tests/indexes/complex/test_add.py",
     "tests/indexes/complex/test_sub.py",
+    "tests/indexes/complex/test_truediv.py",
     "tests/indexes/float/test_mul.py",
     "tests/indexes/float/test_sub.py",
     "tests/indexes/float/test_truediv.py",
@@ -26,8 +29,10 @@
     "tests/indexes/test_multi_indexes.py",
     "tests/indexes/test_sub.py",
     "tests/indexes/test_truediv.py",
+    "tests/indexes/timedeltaindex/test_mul.py",
     "tests/scalars/test_scalars.py",
     "tests/series/bool/test_add.py",
+    "tests/series/bool/test_dtypes.py",
     "tests/series/bool/test_sub.py",
     "tests/series/bool/test_truediv.py",
     "tests/series/complex/test_add.py",
@@ -42,6 +47,7 @@
     "tests/series/float/test_truediv.py",
     "tests/series/int/test_add.py",
     "tests/series/int/test_dtypes.py",
+    "tests/series/int/test_floordiv.py",
     "tests/series/int/test_mul.py",
     "tests/series/int/test_sub.py",
     "tests/series/int/test_truediv.py",
@@ -86,7 +92,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/0cb16c482b2350047d51e5954e9d8bc5ff40f4d0.nq.gz",
     "call_sites": 32041,
     "import_statements": 1855,
-    "call_targets_resolved": 25521,
+    "call_targets_resolved": 26073,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -100,5 +106,5 @@
     "extends_class_denormalized": 258,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1800
+  "elapsed_seconds": 1804
 }
