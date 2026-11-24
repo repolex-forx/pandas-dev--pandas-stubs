@@ -1,0 +1,23 @@
+[2026-11-23T23:52:05Z] === ENRICH ITERATION 21 START | repo=pandas-dev/pandas-stubs sha=14c56cbb ===
+[2026-11-23T23:52:05Z] [iter=21] PHASE START: enrich repo=pandas-dev/pandas-stubs sha=14c56cbb runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/14c56cbb-enrich-iter-021.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/14c56cbb4211c0562bab2cdb516dee6408b721da.nq.gz
+[2026-11-23T23:52:05Z] [iter=21] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T23:52:50Z] [iter=21] AST store loaded triples=3405715 load_secs=44 mem_mb=905 MB
+[2026-11-23T23:52:50Z] [iter=21] Step 2: Finding LSP targets mem_mb=905 MB
+[2026-11-23T23:52:55Z] [iter=21] LSP targets found call_sites=32894 imports=1812 extends=258 implements=0 secs=5
+[2026-11-23T23:53:08Z] [iter=21] Loaded checkpoint partial graph triples=262550
+[2026-11-23T23:53:08Z] [iter=21] Primed enclosing-def cache from persisted triples entries=1157
+[2026-11-23T23:53:11Z] [iter=21] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=905 MB
+[2026-11-23T23:53:29Z] [iter=21] Position index built positions=223162 nodes_with_types=291775 secs=18 mem_mb=1160 MB
+[2026-11-23T23:53:29Z] [iter=21] Step 3: Starting LSP resolution mem_mb=1160 MB already_completed_types=[] already_completed_files=48
+[2026-11-23T23:53:29Z] [iter=21] Resolving target type target_type=call_site count=32894
+[2026-11-23T23:53:30Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=1.4 files_done=0 resolved=0 errors=0 current=tests/series/int/test_mul.py
+[2026-11-23T23:59:38Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=1 resolved=94 errors=0 current=tests/indexes/int/test_mul.py
+[2026-11-24T00:00:28Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=2 resolved=186 errors=0 current=tests/indexes/complex/test_truediv.py
+[2026-11-24T00:01:09Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=9.1 files_done=3 resolved=257 errors=0 current=tests/extension/decimal/array.py
+[2026-11-24T00:01:51Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=4 resolved=340 errors=0 current=tests/dtypes.py
+[2026-11-24T00:17:43Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=6 resolved=722 errors=0 current=tests/indexes/test_multi_indexes.py
+[2026-11-24T00:18:16Z] [iter=21] HEARTBEAT target_type=call_site elapsed_min=26.2 files_done=7 resolved=771 errors=0 current=tests/series/test_truediv.py
+[2026-11-24T00:22:35Z] [iter=21] CHECKPOINT TRIGGERED elapsed_min=30.5 files_completed=55 new_files_this_iter=7 mem_mb=1170 MB
+[2026-11-24T00:22:35Z] [iter=21] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/14c56cbb4211c0562bab2cdb516dee6408b721da.nq.gz triples=273132
+[2026-11-24T00:22:38Z] [iter=21] Checkpoint written, exiting with code 7
+[2026-11-24T00:22:38Z] [iter=21] PHASE END: enrich (checkpointed) elapsed_s=1830 elapsed_min=30.5 files_completed=55
