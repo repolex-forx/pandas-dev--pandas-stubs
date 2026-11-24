@@ -46,8 +46,10 @@
     "tests/indexes/test_mul.py",
     "tests/indexes/test_multi_indexes.py",
     "tests/indexes/test_sub.py",
+    "tests/indexes/timedeltaindex/test_floordiv.py",
     "tests/indexes/timedeltaindex/test_truediv.py",
     "tests/scalars/test_scalars.py",
+    "tests/series/bool/test_add.py",
     "tests/series/bool/test_mul.py",
     "tests/series/bool/test_sub.py",
     "tests/series/bool/test_truediv.py",
@@ -64,6 +66,7 @@
     "tests/series/float/test_truediv.py",
     "tests/series/int/test_add.py",
     "tests/series/int/test_dtypes.py",
+    "tests/series/int/test_floordiv.py",
     "tests/series/int/test_mul.py",
     "tests/series/int/test_sub.py",
     "tests/series/int/test_truediv.py",
@@ -74,6 +77,7 @@
     "tests/series/test_agg.py",
     "tests/series/test_floordiv.py",
     "tests/series/test_indexing.py",
+    "tests/series/test_mul.py",
     "tests/series/test_series.py",
     "tests/series/test_sub.py",
     "tests/series/test_truediv.py",
@@ -82,10 +86,12 @@
     "tests/series/timedelta/test_mul.py",
     "tests/series/timedelta/test_truediv.py",
     "tests/series/timestamp/test_add.py",
+    "tests/series/timestamp/test_dtypes.py",
     "tests/series/timestamp/test_sub.py",
     "tests/test_api_types.py",
     "tests/test_dtypes.py",
     "tests/test_errors.py",
+    "tests/test_extension.py",
     "tests/test_groupby.py",
     "tests/test_interval.py",
     "tests/test_io.py",
@@ -96,6 +102,7 @@
     "tests/test_resampler.py",
     "tests/test_string_accessors.py",
     "tests/test_timefuncs.py",
+    "tests/test_typing.py",
     "tests/test_windowing.py"
   ],
   "completed_types": [],
@@ -104,7 +111,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/14c56cbb4211c0562bab2cdb516dee6408b721da.nq.gz",
     "call_sites": 32894,
     "import_statements": 1812,
-    "call_targets_resolved": 27921,
+    "call_targets_resolved": 28752,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -118,5 +125,5 @@
     "extends_class_denormalized": 258,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1815
+  "elapsed_seconds": 1818
 }
