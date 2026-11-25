@@ -11,6 +11,7 @@
     "tests/test_groupby.py",
     "tests/test_io.py",
     "tests/test_natype.py",
+    "tests/test_pandas.py",
     "tests/test_resampler.py",
     "tests/test_styler.py",
     "tests/test_timefuncs.py"
@@ -21,7 +22,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/694b1a67ec95a1fabbc2c0243406197019515081.nq.gz",
     "call_sites": 30262,
     "import_statements": 1633,
-    "call_targets_resolved": 13105,
+    "call_targets_resolved": 14848,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
