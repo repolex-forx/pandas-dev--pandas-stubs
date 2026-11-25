@@ -1,14 +1,18 @@
 {
   "commit_sha": "694b1a67ec95a1fabbc2c0243406197019515081",
   "completed_files": [
+    "scripts/test/_step.py",
+    "tests/arrays/test_arrays.py",
     "tests/arrays/test_extension_array.py",
     "tests/frame/test_frame.py",
     "tests/frame/test_groupby.py",
     "tests/frame/test_indexing.py",
     "tests/indexes/int/test_truediv.py",
     "tests/indexes/test_indexes.py",
+    "tests/indexes/test_mul.py",
     "tests/scalars/test_scalars.py",
     "tests/series/complex/test_add.py",
+    "tests/series/complex/test_mul.py",
     "tests/series/complex/test_truediv.py",
     "tests/series/float/test_floordiv.py",
     "tests/series/float/test_sub.py",
@@ -22,6 +26,7 @@
     "tests/series/timedelta/test_floordiv.py",
     "tests/series/timedelta/test_mul.py",
     "tests/series/timedelta/test_sub.py",
+    "tests/series/timedelta/test_truediv.py",
     "tests/test_extension.py",
     "tests/test_groupby.py",
     "tests/test_io.py",
@@ -38,7 +43,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/694b1a67ec95a1fabbc2c0243406197019515081.nq.gz",
     "call_sites": 30262,
     "import_statements": 1633,
-    "call_targets_resolved": 19197,
+    "call_targets_resolved": 19748,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -52,5 +57,5 @@
     "extends_class_denormalized": 258,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1831
+  "elapsed_seconds": 1812
 }
