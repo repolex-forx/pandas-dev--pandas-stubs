@@ -1,0 +1,17 @@
+[2026-11-25T17:55:39Z] === ENRICH ITERATION 3 START | repo=pandas-dev/pandas-stubs sha=ab318181 ===
+[2026-11-25T17:55:39Z] [iter=3] PHASE START: enrich repo=pandas-dev/pandas-stubs sha=ab318181 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ab318181-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ab318181c93536fde6b5cc47dbac5b201cbe7675.nq.gz
+[2026-11-25T17:55:39Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T17:56:12Z] [iter=3] AST store loaded triples=1878655 load_secs=32 mem_mb=913 MB
+[2026-11-25T17:56:12Z] [iter=3] Step 2: Finding LSP targets mem_mb=913 MB
+[2026-11-25T17:56:15Z] [iter=3] LSP targets found call_sites=14891 imports=1042 extends=264 implements=0 secs=3
+[2026-11-25T17:56:17Z] [iter=3] Loaded checkpoint partial graph triples=50673
+[2026-11-25T17:56:17Z] [iter=3] Primed enclosing-def cache from persisted triples entries=451
+[2026-11-25T17:56:19Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=913 MB
+[2026-11-25T17:56:28Z] [iter=3] Position index built positions=122437 nodes_with_types=158260 secs=9 mem_mb=913 MB
+[2026-11-25T17:56:28Z] [iter=3] Step 3: Starting LSP resolution mem_mb=913 MB already_completed_types=[] already_completed_files=3
+[2026-11-25T17:56:28Z] [iter=3] Resolving target type target_type=call_site count=14891
+[2026-11-25T17:56:29Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=tests/test_series.py
+[2026-11-25T18:25:48Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=3 new_files_this_iter=0 mem_mb=913 MB
+[2026-11-25T18:25:48Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ab318181c93536fde6b5cc47dbac5b201cbe7675.nq.gz triples=69529
+[2026-11-25T18:25:49Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-25T18:25:49Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1809 elapsed_min=30.1 files_completed=3
