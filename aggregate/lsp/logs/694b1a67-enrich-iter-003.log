@@ -1,0 +1,17 @@
+[2026-11-25T02:51:47Z] === ENRICH ITERATION 3 START | repo=pandas-dev/pandas-stubs sha=694b1a67 ===
+[2026-11-25T02:51:47Z] [iter=3] PHASE START: enrich repo=pandas-dev/pandas-stubs sha=694b1a67 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/694b1a67-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/694b1a67ec95a1fabbc2c0243406197019515081.nq.gz
+[2026-11-25T02:51:47Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T02:52:17Z] [iter=3] AST store loaded triples=3182393 load_secs=28 mem_mb=934 MB
+[2026-11-25T02:52:17Z] [iter=3] Step 2: Finding LSP targets mem_mb=934 MB
+[2026-11-25T02:52:23Z] [iter=3] LSP targets found call_sites=30262 imports=1633 extends=258 implements=0 secs=6
+[2026-11-25T02:52:25Z] [iter=3] Loaded checkpoint partial graph triples=48536
+[2026-11-25T02:52:25Z] [iter=3] Primed enclosing-def cache from persisted triples entries=302
+[2026-11-25T02:52:28Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=934 MB
+[2026-11-25T02:52:50Z] [iter=3] Position index built positions=208367 nodes_with_types=271259 secs=21 mem_mb=934 MB
+[2026-11-25T02:52:50Z] [iter=3] Step 3: Starting LSP resolution mem_mb=934 MB already_completed_types=[] already_completed_files=4
+[2026-11-25T02:52:50Z] [iter=3] Resolving target type target_type=call_site count=30262
+[2026-11-25T02:52:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=0 resolved=0 errors=0 current=tests/frame/test_frame.py
+[2026-11-25T03:21:54Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=4 new_files_this_iter=0 mem_mb=934 MB
+[2026-11-25T03:21:54Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/694b1a67ec95a1fabbc2c0243406197019515081.nq.gz triples=59532
+[2026-11-25T03:21:55Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-25T03:21:55Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1807 elapsed_min=30.1 files_completed=4
