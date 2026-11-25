@@ -3,6 +3,9 @@
   "completed_files": [
     "tests/test_api_types.py",
     "tests/test_frame.py",
+    "tests/test_groupby.py",
+    "tests/test_series.py",
+    "tests/test_styler.py",
     "tests/test_timefuncs.py"
   ],
   "completed_types": [],
@@ -11,7 +14,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/ab318181c93536fde6b5cc47dbac5b201cbe7675.nq.gz",
     "call_sites": 14891,
     "import_statements": 1042,
-    "call_targets_resolved": 5414,
+    "call_targets_resolved": 7385,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -25,5 +28,5 @@
     "extends_class_denormalized": 264,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1808
+  "elapsed_seconds": 1801
 }
