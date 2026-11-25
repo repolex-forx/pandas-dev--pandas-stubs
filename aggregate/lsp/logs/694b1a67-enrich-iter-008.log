@@ -1,0 +1,17 @@
+[2026-11-25T05:32:09Z] === ENRICH ITERATION 8 START | repo=pandas-dev/pandas-stubs sha=694b1a67 ===
+[2026-11-25T05:32:09Z] [iter=8] PHASE START: enrich repo=pandas-dev/pandas-stubs sha=694b1a67 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/694b1a67-enrich-iter-008.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/694b1a67ec95a1fabbc2c0243406197019515081.nq.gz
+[2026-11-25T05:32:09Z] [iter=8] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T05:32:37Z] [iter=8] AST store loaded triples=3182393 load_secs=27 mem_mb=911 MB
+[2026-11-25T05:32:37Z] [iter=8] Step 2: Finding LSP targets mem_mb=911 MB
+[2026-11-25T05:32:43Z] [iter=8] LSP targets found call_sites=30262 imports=1633 extends=258 implements=0 secs=6
+[2026-11-25T05:32:50Z] [iter=8] Loaded checkpoint partial graph triples=122520
+[2026-11-25T05:32:50Z] [iter=8] Primed enclosing-def cache from persisted triples entries=712
+[2026-11-25T05:32:53Z] [iter=8] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=911 MB
+[2026-11-25T05:33:14Z] [iter=8] Position index built positions=208367 nodes_with_types=271259 secs=21 mem_mb=916 MB
+[2026-11-25T05:33:14Z] [iter=8] Step 3: Starting LSP resolution mem_mb=916 MB already_completed_types=[] already_completed_files=10
+[2026-11-25T05:33:14Z] [iter=8] Resolving target type target_type=call_site count=30262
+[2026-11-25T05:33:15Z] [iter=8] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=0 resolved=0 errors=0 current=tests/series/test_series.py
+[2026-11-25T06:02:23Z] [iter=8] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=10 new_files_this_iter=0 mem_mb=924 MB
+[2026-11-25T06:02:23Z] [iter=8] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/694b1a67ec95a1fabbc2c0243406197019515081.nq.gz triples=131676
+[2026-11-25T06:02:24Z] [iter=8] Checkpoint written, exiting with code 7
+[2026-11-25T06:02:24Z] [iter=8] PHASE END: enrich (checkpointed) elapsed_s=1813 elapsed_min=30.2 files_completed=10
