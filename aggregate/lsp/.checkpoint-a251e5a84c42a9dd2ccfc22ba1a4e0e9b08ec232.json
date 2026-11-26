@@ -2,12 +2,17 @@
   "commit_sha": "a251e5a84c42a9dd2ccfc22ba1a4e0e9b08ec232",
   "completed_files": [
     "tests/__init__.py",
+    "tests/extension/decimal/array.py",
+    "tests/test_api_types.py",
+    "tests/test_config.py",
     "tests/test_frame.py",
     "tests/test_groupby.py",
+    "tests/test_indexes.py",
     "tests/test_io.py",
     "tests/test_pandas.py",
     "tests/test_plotting.py",
-    "tests/test_scalars.py"
+    "tests/test_scalars.py",
+    "tests/test_series.py"
   ],
   "completed_types": [],
   "stats": {
@@ -15,7 +20,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/a251e5a84c42a9dd2ccfc22ba1a4e0e9b08ec232.nq.gz",
     "call_sites": 14866,
     "import_statements": 1043,
-    "call_targets_resolved": 9066,
+    "call_targets_resolved": 11247,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -29,5 +34,5 @@
     "extends_class_denormalized": 264,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1809
+  "elapsed_seconds": 1805
 }
