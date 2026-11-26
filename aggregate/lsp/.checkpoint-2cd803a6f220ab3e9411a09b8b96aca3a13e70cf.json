@@ -5,6 +5,7 @@
     "tests/test_indexes.py",
     "tests/test_io.py",
     "tests/test_merge.py",
+    "tests/test_pandas.py",
     "tests/test_scalars.py",
     "tests/test_timefuncs.py",
     "tests/test_windowing.py"
@@ -15,7 +16,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/2cd803a6f220ab3e9411a09b8b96aca3a13e70cf.nq.gz",
     "call_sites": 13129,
     "import_statements": 998,
-    "call_targets_resolved": 7486,
+    "call_targets_resolved": 9103,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -29,5 +30,5 @@
     "extends_class_denormalized": 268,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1800
+  "elapsed_seconds": 1801
 }
